@@ -56,7 +56,7 @@ def call_llm(prompt: str, use_cache: bool = True) -> str:
 
     # You can comment the previous line and use the AI Studio key instead:
     client = genai.Client(
-        api_key=os.getenv("GEMINI_API_KEY", "AIzaSyB6FInbV6vzAd_GsTaeMbg50l_RDjWR3O0"),
+        api_key=os.getenv("GEMINI_API_KEY", "Type_api_key"),
     )
     model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
     # model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
